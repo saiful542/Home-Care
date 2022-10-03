@@ -1,0 +1,1317 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* font weight classes */
+.font-extralight {
+    font-weight: 200;
+}
+
+.font-regular {
+    font-weight: 400;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+/* font size classe */
+.font-size-larger {
+    font-size: 80px;
+    line-height: 75px;
+}
+
+.font-size-large {
+    font-size: 62px;
+    line-height: 65px;
+}
+
+.font-size-medium-large {
+    font-size: 24px;
+}
+
+.font-size-medium-large-thirty-two {
+    font-size: 32px;
+}
+
+.font-size-medium-small {
+    font-size: 18px;
+}
+
+.font-size-small {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.font-size-extra-small {
+    font-size: 14px;
+}
+
+.font-size-fourty-seven {
+    font-size: 47px;
+    line-height: 50px;
+}
+
+/* color classes */
+/* background color */
+
+.background {
+    background-color: #E8E8E8;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+.bg-offwhite {
+    background-color: #F0F0F0;
+}
+
+.bg-blue {
+    background-color: #008AF7;
+
+}
+
+.bg-lightblue {
+    background-color: #EBF6FF;
+}
+
+.bg-footer {
+    background-color: #F6F6F6;
+}
+
+/* text color */
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.text-blue {
+    color: #008AF7;
+}
+
+.text-ash {
+    color: #434343;
+}
+
+.text-darkviolet {
+    color: #2A2B39;
+}
+
+.text-lightviolet {
+    color: #7C77E1;
+}
+
+.text-light-ash {
+    color: #8F8F8F;
+
+}
+
+.text-light-black {
+    color: #222222;
+}
+
+/* button */
+.button {
+    border-radius: 36px;
+    padding: 16px 30px;
+    font-size: 14px;
+}
+
+.right {
+    width: 50%;
+}
+
+.left {
+    width: 50%;
+}
+
+.image {
+    width: 100%;
+}
+
+.responsive-padding {
+    padding: 80px 0;
+}
+
+/* container */
+.container {
+    max-width: 1220px;
+    margin: auto;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}
+
+
+/* HOME CARE LANDING PAGE */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav .right-side .nav-items {
+    display: flex;
+    gap: 40px;
+}
+
+header nav .hamburger {
+    display: none;
+
+}
+
+header nav .right-side .nav-items .nav-item {
+    padding: 25px 0;
+}
+
+header nav .right-side .nav-items .nav-item .nav-link {
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+
+header nav .right-side .nav-items .nav-item .nav-link:hover {
+    background-color: #008AF7;
+    color: #FFFFFF;
+}
+
+/* active nav link */
+header nav .right-side .nav-items .nav-item .nav-link.active {
+    background-color: #008AF7;
+    color: #FFFFFF;
+}
+
+/* main section */
+
+/* banner section */
+main .banner-container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+main .banner {
+    display: flex;
+    gap: 70px;
+}
+
+main .banner .right {
+    padding-top: 85px;
+}
+
+main .banner .right .tags {
+    display: flex;
+    gap: 75px;
+    padding-bottom: 35px;
+}
+
+main .banner .right .tags p:before {
+    content: '';
+    background: url(../logos/done.png) no-repeat;
+    /* background-size: 13px; */
+    background-position: center left;
+    padding-left: 21px;
+}
+
+main .banner .right .links {
+    padding-top: 72px;
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+
+main .banner .right .links .contact {
+    padding-bottom: 5px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 210px;
+}
+
+main .banner .right .phone {
+    padding-top: 40px;
+}
+
+main .banner .right .phone .call-us {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+/* banner section */
+
+
+/* support section */
+main .support-section {
+    padding: 100px 0;
+}
+
+main .support-section .join-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .support-section .supports {
+    padding-top: 90px;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+main .support-section .supports .support {
+    width: 350px;
+    padding: 70px 40px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    height: 430px;
+}
+
+main .support-section .supports .support h4 {
+    padding: 22px 0;
+
+}
+
+/* support section */
+
+/* activities section */
+
+/* padding for our-activities section */
+.padding {
+    padding: 110px 0;
+}
+
+main .our-activities {
+    display: flex;
+    align-items: center;
+}
+
+main .our-activities .left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+main .our-activities .left h1 {
+    padding-right: 20px;
+}
+
+main .our-activities .left p {
+    padding-right: 140px;
+}
+
+main .our-activities .left div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+main .our-activities .left .button {
+    align-self: flex-start;
+}
+
+/* activities section */
+
+/* age-limit section */
+main .age-limit {
+    padding: 100px 0;
+}
+
+main .age-limit .top {
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+main .age-limit .top .left {
+    padding-right: 120px;
+}
+
+main .age-limit .top .left h3 {
+    padding-bottom: 22px;
+}
+
+main .age-limit .top .right {
+    width: 55%;
+}
+
+main .age-limit .bottom {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+main .age-limit .bottom .right {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    padding-right: 100px;
+}
+
+main .age-limit .bottom .right .catagory {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main .age-limit .bottom .right .catagory div {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+main .age-limit .bottom .right .button {
+    align-self: flex-start;
+}
+
+/* age-limit section */
+
+/* video section */
+main .video-section {
+    background-image: url(../images/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 130px 0;
+}
+
+main .video-section .appointment {
+    display: flex;
+    align-items: center;
+}
+
+main .video-section .appointment .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+main .video-section .appointment .left .play {
+    display: none;
+}
+
+main .video-section .appointment .left .button {
+    align-self: flex-start;
+}
+
+main .video-section .appointment .left p span {
+    border-bottom: 1px solid rgb(255, 255, 255, 0.8);
+    padding-bottom: 5px;
+}
+
+main .video-section .appointment .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* video section */
+
+/* form section */
+main .form {
+    padding: 100px 80px 65px 80px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+main .form h1 {
+    text-align: center;
+}
+
+main .form .button {
+    align-self: center;
+}
+
+main .form .inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+main .form .inputs div {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+main .form .inputs input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #EEF4F4;
+    border: 1px solid #EBEBEB;
+    border-radius: 15px;
+    height: 50px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+}
+
+main .form .inputs .message {
+    padding-bottom: 58px;
+}
+
+/* form section */
+/* main section */
+
+/* footer section */
+footer .footer-section {
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+
+footer .footer-section .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-section .top .content p {
+    padding-top: 30px;
+}
+
+footer .footer-section .top .content h3 {
+    padding-bottom: 30px;
+}
+
+footer .footer-section .top .content .social-icons ul {
+    display: flex;
+    gap: 25px;
+}
+
+footer .footer-section .bottom {
+    text-align: center;
+    padding-top: 130px;
+}
+
+/* footer section */
+/* HOME CARE LANDING PAGE */
+
+
+/* HOME CARE ABOUT PAGE */
+
+/* about section */
+main .about-section {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 70px 0 100px 0;
+}
+
+main .about-section .right {
+    padding-right: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .about-section .right>p {
+    padding-top: 30px;
+}
+
+main .about-section .right .schedule {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+main .about-section .right .day {
+    border-bottom: 1px solid #7C77E1;
+    padding-bottom: 10px;
+    align-self: flex-start;
+
+}
+
+/* about section */
+
+/* latest attraction section */
+main .latest-attraction {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    gap: 100px;
+}
+
+main .latest-attraction .right {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+main .latest-attraction .right .phone {
+    padding-top: 40px;
+}
+
+main .latest-attraction .right .links {
+    padding-top: 20px;
+}
+
+main .latest-attraction .right .phone .call-us {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+/* latest attraction section */
+
+/* perfect place section */
+main .perfect-place {
+    padding: 100px 0;
+}
+
+
+
+main .perfect-place .links {
+    padding-top: 95px;
+}
+
+main .perfect-place .links ul {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 12px;
+}
+
+main .perfect-place .links .link:hover {
+    color: #008AF7;
+}
+
+main .perfect-place .links .active {
+    color: #008AF7;
+    font-weight: 700;
+
+}
+
+main .perfect-place h1 {
+    text-align: center;
+}
+
+main .perfect-place h2 {
+    align-self: start;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+/* perfect place section */
+
+/* HOME CARE ABOUT PAGE */
+
+
+
+/* HOME CARE OUR CENTER PAGE */
+
+
+/* fames section */
+main .fames {
+    padding: 120px 0;
+}
+
+main .fames .contents {
+    padding-top: 120px;
+    display: flex;
+    gap: 80px;
+}
+
+main .fames .contents .left {
+    display: flex;
+    gap: 35px;
+}
+
+main .fames .contents .left .box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 22px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 275px;
+    padding: 60px 25px;
+    cursor: pointer;
+}
+
+main .fames .contents .left .box .arrow {
+    padding-top: 25px;
+}
+
+main .fames .contents .left .right-box {
+    position: relative;
+    bottom: 60px;
+}
+
+main .fames .contents .right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-right: 60px;
+}
+
+/* fames section */
+
+
+
+/* special content section */
+main .special-content {
+    display: flex;
+    align-items: center;
+}
+
+main .special-content .left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-right: 140px;
+}
+
+/* special content section */
+
+/* catagories section */
+main .catagories {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    gap: 100px;
+}
+
+
+
+main .catagories .catagory {
+    display: flex;
+    gap: 50px;
+}
+
+/* catagories section */
+
+
+/* features section */
+main .feature-section .features {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+main .feature-section .features .top,
+main .feature-section .features .bottom {
+    display: flex;
+    gap: 45px;
+}
+
+main .feature-section .features .feature p {
+    padding: 18px 0 0 90px;
+}
+
+main .feature-section .features .feature {
+    max-width: 570px;
+    cursor: pointer;
+}
+
+main .feature-section .features .lifted {
+    position: relative;
+    bottom: 40px;
+}
+
+/* features section */
+
+/* HOME CARE OUR CENTER PAGE */
+
+
+/* HOME CARE CONTACT PAGE */
+main .get-in-touch {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+main .get-in-touch .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+}
+
+main .text>h1 {
+    padding-bottom: 20px;
+}
+
+/* HOME CARE CONTACT PAGE */
+
+/* HOME CARE BLOG PAGE 1 SECTION */
+main .blog-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .blog-content .blogs {
+    display: flex;
+    column-gap: 50px;
+    row-gap: 70px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+main .blog-content .blogs .blog {
+    max-width: 370px;
+}
+
+main .blog-content .blogs .blog h3 {
+    padding-top: 20px;
+}
+
+main .blog-content .blogs .blog p {
+    padding-top: 8px;
+}
+
+main .blog-content .pagination {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 100px;
+}
+
+main .blog-content .pagination .page {
+    padding: 0 8px;
+}
+
+main .blog-content .pagination .page.active {
+    border-bottom: 2px solid #008AF7;
+}
+
+/* HOME CARE BLOG PAGE 1 SECTION */
+
+
+/* HOME CARE BLOG PAGE 2 SECTION */
+main .new-blog-content {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+main .new-blog-content .left-side {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+main .new-blog-content .left-side h1{
+    padding-right: 200px;
+}
+
+
+main .new-blog-content .left-side .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main .new-blog-content .left-side .text ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px   ;
+
+}
+
+main .new-blog-content .left-side .text ul li .check{
+    text-indent: -30px;
+    padding-left: 30px;
+}
+
+main .new-blog-content .left-side .text ul li .check::before {
+    content: '';
+    background: url(../logos/blog_2/check.png) no-repeat;
+    background-size: 15px;
+    background-position: left center;
+    padding-left: 30px;
+    white-space: pre;
+
+}
+
+main .new-blog-content .left-side .image-div {
+    display: flex;
+    gap: 30px;
+}
+
+main .new-blog-content .right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding-top: 50px;
+}
+main .new-blog-content .right-side .rated-post{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+main .new-blog-content .right-side .image-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main .new-blog-content .border-left{
+    padding-left: 14px;
+    border-left: 5px solid #008AF7;
+    display: inline;
+}
+
+/* HOME CARE BLOG PAGE 2 SECTION */
+
+
+
+
+
+/* responsive for mobile device */
+@media only screen and (max-width:375px) {
+
+    /* HOME CARE BLOG PAGE 2 SECTION */
+
+    main .new-blog-content {
+        flex-direction: column;
+        gap: 38px;
+    }
+
+    main .new-blog-content .left-side {
+        gap: 30px;
+    }
+
+    main .new-blog-content .left-side .image-div {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    main .new-blog-content .right-side {
+        gap: 38px;
+        padding-top: 0;
+    }
+
+    main .new-blog-content .left-side h1{
+        padding-right: 0;
+    }
+
+
+
+    /* HOME CARE BLOG PAGE 2 SECTION */
+
+
+
+    /* HOME CARE BLOG PAGE 1 SECTION */
+    main .blog-content .blogs {
+        gap: 50px;
+    }
+
+    /* HOME CARE BLOG PAGE 1 SECTION */
+
+    /* HOME CARE CONTACT PAGE */
+    .responsive-padding {
+        padding: 50px 0;
+    }
+
+    main .get-in-touch {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+        gap: 50px;
+    }
+
+    /* HOME CARE CONTACT PAGE */
+
+    /* HOME CARE OUR CENTER PAGE */
+    main .feature-section .features .top,
+    main .feature-section .features .bottom {
+        flex-direction: column;
+    }
+
+    main .feature-section .features .lifted {
+        position: static;
+    }
+
+    main .feature-section .features .feature p {
+        padding: 18px 0 0 0;
+    }
+
+    main .feature-section .features {
+        padding: 45px 0;
+        gap: 45px;
+    }
+
+
+    main .catagories {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    main .catagories .catagory {
+        gap: 20px;
+    }
+
+    main .catagories .catagory:first-child>p {
+        padding-right: 7px;
+    }
+
+    main .special-content {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    main .special-content .left {
+        padding-right: 0;
+    }
+
+    main .special-content .left h1 {
+        text-align: center;
+    }
+
+    main .fames {
+        padding: 50px 0;
+    }
+
+    main .fames .contents {
+        flex-direction: column;
+        padding: 40px 0;
+        gap: 90px;
+    }
+
+    main .fames .contents .left {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .fames .contents .left .right-box {
+        position: static;
+    }
+
+    main .fames .contents .right {
+        gap: 20px;
+        padding-right: 0;
+    }
+
+    main .fames .contents .right h1 {
+        text-align: center;
+    }
+
+    /* HOME CARE OUR CENTER PAGE */
+
+    /* HOME CARE ABOUT PAGE */
+    main .about-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding: 40px 0;
+    }
+
+    main .about-section .right {
+        padding-right: 0;
+    }
+
+    main .about-section .right p {
+        padding-top: 20px;
+    }
+
+    main .about-section .right h1 {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    main .latest-attraction {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .latest-attraction {
+        padding: 50px 0;
+    }
+
+    main .latest-attraction .right {
+        align-items: center;
+    }
+
+    main .latest-attraction .right h1 {
+        text-align: center;
+    }
+
+    main .perfect-place {
+        padding: 50px 0;
+    }
+
+    main .perfect-place .links {
+        padding-top: 30px;
+    }
+
+    main .perfect-place .links ul {
+        flex-direction: column;
+        background-color: #F0F0F0;
+        gap: 0;
+        padding-bottom: 0;
+    }
+
+    main .perfect-place .links ul li {
+        padding: 15px 0;
+        border-bottom: 1px solid #D6D6D6;
+        text-align: center;
+        width: 100%;
+    }
+
+    main .perfect-place .links ul li.active {
+        border-color: #008AF7;
+    }
+
+    main .perfect-place .links ul li:last-child {
+        border: none;
+    }
+
+    .horizontal-line {
+        display: none;
+    }
+
+    /* HOME CARE ABOUT PAGE */
+
+
+
+    /* HOME CARE LANDING PAGE */
+    .container {
+        width: 94%;
+    }
+
+    .banner-container {
+        width: 94%;
+    }
+
+    .padding {
+        padding: 50px 0;
+    }
+
+    .font-size-larger,
+    .font-size-large,
+    .font-size-fourty-seven {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+
+    header nav .right-side {
+        display: none;
+    }
+
+    header nav .hamburger {
+        display: block;
+        padding: 40px 0;
+    }
+
+    main .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .banner .right {
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 0;
+    }
+
+    main .banner .right h1 {
+        text-align: center;
+    }
+
+    main .banner .right .links {
+        flex-direction: column;
+        padding-top: 40px;
+        gap: 30px;
+    }
+
+    main .banner .right .tags {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: start;
+    }
+
+
+    main .support-section .join-us {
+        flex-direction: column;
+        padding: 0 20px;
+        text-align: center;
+        gap: 40px;
+    }
+
+    main .our-activities {
+        flex-direction: column-reverse;
+    }
+
+    main .our-activities .left {
+        align-items: center;
+    }
+
+    main .our-activities .left h1 {
+        padding-right: 0;
+    }
+
+    main .our-activities .left p {
+        padding-right: 0;
+    }
+
+    main .our-activities .left h1 {
+        text-align: center;
+    }
+
+    main .our-activities .left .button {
+        align-self: center;
+    }
+
+    main .age-limit {
+        padding: 50px 0;
+    }
+
+    main .age-limit .top {
+        flex-direction: column-reverse;
+        padding-bottom: 30px;
+    }
+
+    main .age-limit .top .left {
+        padding-right: 0;
+    }
+
+    main .age-limit .top .right {
+        width: 100%;
+    }
+
+    main .age-limit .top .right h1 {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    main .age-limit .bottom {
+        flex-direction: column;
+    }
+
+    main .age-limit .bottom .right {
+        gap: 30px;
+        padding-right: 0;
+    }
+
+    main .age-limit .bottom .right .catagory {
+        gap: 15px;
+    }
+
+    main .age-limit .bottom .right .button {
+        align-self: center;
+    }
+
+    main .video-section {
+        padding: 40px 0;
+    }
+
+    main .video-section .appointment {
+        flex-direction: column;
+    }
+
+    main .video-section .appointment .left h1 {
+        text-align: center;
+    }
+
+    main .video-section .appointment .left .play {
+        display: block;
+    }
+
+    main .video-section .appointment .left .button {
+        align-self: center;
+    }
+
+    main .video-section .appointment .right {
+        display: none;
+    }
+
+    main .form {
+        padding: 40px 15px;
+    }
+
+    main .form .inputs {
+        gap: 15px;
+    }
+
+    main .form .inputs input {
+        padding-left: 20px;
+    }
+
+    main .form .inputs div {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    footer .footer-section {
+        padding-top: 50px;
+    }
+
+    footer .footer-section .top {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer .footer-section .top .content h3 {
+        padding-bottom: 10px;
+    }
+
+    footer .footer-section .bottom {
+        padding-top: 50px;
+    }
+
+    /* HOME CARE LANDING PAGE */
+
+}
